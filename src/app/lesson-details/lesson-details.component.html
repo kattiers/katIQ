@@ -1,0 +1,6 @@
+<div class="header-container">
+    <button class="button back-button" (click)="mainPage()">BACK</button>
+    <div class="headline">{{lessonTitle}}</div>
+  </div>
+  <iframe [src]="lessonLink" class="videoLesson" width="640" height="360"></iframe>
+  <div class="description">{{lessonDescription}}</div>
