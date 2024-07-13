@@ -64,3 +64,10 @@
 .link {
     color:rgb(83, 156, 132)
 }
+
+.bottom {
+    position: fixed;
+    bottom: 20px; 
+    left: 50%; 
+    transform: translateX(-50%);
+}
