@@ -6,7 +6,6 @@ import { Lesson } from './lesson';
 })
 export class LessonsService {
   protected lessons: Lesson[] = [
-<<<<<<< HEAD
     {
        title: "Саксонская чаша",
        section: "Hydrodynamics",
@@ -23,7 +22,6 @@ export class LessonsService {
     //   link: "https://www.youtube.com/embed/OW9NaY6Dy7w",
     //   description: "Physics lesson at the Richelieu Lyceum. Author: Pavel Andreevich Victor"
     // },
->>>>>>> 22db17699fd51b48df3f4492302c6edefc2e9cf3
     {
       title: "Колыбель Ньютона",
       section: "Mechanics",
