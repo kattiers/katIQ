@@ -1,7 +1,6 @@
 <div class="header-container">
-  button class="button back-button" (click)="mainPage()">BACK</button>
+  <button class="button back-button" (click)="mainPage()">BACK</button>
   <div class="headline">{{lessonTitle}}</div>
 </div>
 <iframe [src]="lessonLink" class="videoLesson" width="95%" height="20%"></iframe>
 <div class="description" [innerHTML]="lessonDescription"></div>
-<button class="button back-button bottom" (click)="mainPage()">BACK</button>
