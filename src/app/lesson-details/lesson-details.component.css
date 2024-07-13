@@ -53,8 +53,14 @@
   
 .description {
     color: rgb(78, 78, 78);
-    text-align: center;
+    text-align: left;
     font-size: 180%;
     margin-top: 50px;
     margin-bottom: 50px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.link {
+    color:rgb(83, 156, 132)
 }

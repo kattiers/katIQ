@@ -22,7 +22,7 @@ export class LessonDetailsComponent {
   lessonTitle = '';
   lessonSection = '';
   lessonLink: any = '';
-  lessonDescription = '';
+  lessonDescription: any = '';
   lesson: Lesson | undefined;
 
   constructor() {
@@ -31,7 +31,9 @@ export class LessonDetailsComponent {
     this.lesson = this.lessonService.getLessonByTitle(String(this.lessonTitle));
     if (this.lesson) {
       this.lessonLink = this.sanitizer.bypassSecurityTrustResourceUrl(this.lesson.link);
-      this.lessonDescription = this.lesson.description;
+      let lessonDescriptionWithoutLinks = this.lesson.description.replace(/@@/g, '<br>');
+      let lessonDescriptionWithLinksAndStrong = lessonDescriptionWithoutLinks.replace(/!(.*?)!/g, '<strong>$1</strong>');
+      this.lessonDescription = this.sanitizer.bypassSecurityTrustHtml(lessonDescriptionWithLinksAndStrong.replace(/\*(.*?)\*/g, '<a href="$1" target="_blank" style="color: rgb(83, 156, 132);"> (Click to see additional training material) </a>'));
     }
   }
 
