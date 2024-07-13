@@ -1,0 +1,179 @@
+.lessons {
+    background-color: rgb(252, 233, 233);
+    border-radius: 15px;
+    margin: 2%;
+    margin-left: 6%;
+    margin-right: 6%;
+}
+
+.subject-title {
+    text-align: center;
+    font-size: 1.5em;
+    margin-top: 2em;
+    margin-bottom: 1em;
+    font-weight: bold;
+    color: rgb(134, 1, 1);
+    padding-top: 10px;
+    border-top: 2px solid rgb(218, 202, 202);
+}
+
+.topic-name {
+    margin: 20px;
+    padding-top: 15px;
+    font-weight: 900;
+    color: rgb(87, 86, 86);
+    font-size: 130%;
+}
+
+.lesson {
+    width: 48%;
+    margin: 1%;
+    display: inline-block;
+    font-weight: 600;
+    color: rgb(100, 99, 99);
+    cursor: pointer;
+    font-size: 130%;
+}
+
+.dot {
+    height: 5px;
+    margin-right: 3px;
+    padding-bottom: 3px;
+    display: inline-block;
+}
+
+.header {
+    margin: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.lesson-language {
+    font-size: 0.9em;
+    font-style: italic;
+    color: rgb(150, 150, 150);
+    margin-left: 10px;
+}
+
+.logo {
+    font-size: 190%;
+    color: rgb(134, 1, 1);
+    display: inline-block;
+    font-weight: 900;
+}
+
+.header-form {
+    display: inline-block;
+}
+
+.form-search {
+    background-color: rgb(252, 233, 233);
+    border: none;
+    outline: none;
+    font-weight: 700;
+    font-size: 16px;
+    margin-top: 5px;
+    color: rgb(61, 61, 61);
+    margin-left: 15px;
+    display: inline-block;
+}
+
+.magnifier {
+    height: 30px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.header-search {
+    background-color: rgb(252, 233, 233);
+    border-radius: 25px;
+    height: 30px;
+    width: 20%;
+    margin-left: 5%;
+    display: flex;
+    align-items: center;
+    float: right;
+    padding: 0 10px;
+}
+
+.signUp,
+.logIn,
+.logInTeacher {
+    display: inline-block;
+    margin-left: 15px;
+    background-color: rgb(252, 233, 233);
+    border-radius: 15px;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 10px;
+    cursor: pointer;
+    color: rgb(102, 101, 101);
+}
+
+.signUp:hover,
+.logIn:hover,
+.logInTeacher:hover {
+    background-color: rgb(218, 202, 202);
+    transition: all .3s linear;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear; 
+    color: rgb(102, 101, 101);
+}
+
+#logOut {
+    float: right;
+    width: auto;
+    height: auto;
+}
+
+.button {
+    margin-left: 25px;
+    border-color: rgba(102, 101, 101, 0.034);
+    background-color: rgb(252, 233, 233);
+    border-radius: 15px;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 10px;
+    cursor: pointer;
+    color: rgb(102, 101, 101);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button:hover {
+    background-color: rgb(218, 202, 202);
+    transition: all .3s linear;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear; 
+    color: rgb(102, 101, 101);
+}
+
+.no-lessons {
+    color: rgb(71, 71, 71);
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-size: 120%;
+}
+
+.user-greeting {
+    display: flex;
+    align-items: center;
+}
+
+.header-search .form-search {
+    flex: 1;
+    width: 100%;
+    height: auto;
+    border: none; 
+    outline: none; 
+    background: none;
+    font-size: 15px;
+}
+
+.header-form {
+    width: 100%;
+    display: flex;
+}

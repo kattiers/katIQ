@@ -1,0 +1,66 @@
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-top: 50px;
+}
+  
+.headline {
+    color: rgb(102, 101, 101);
+    font-size: 190%;
+    background-color: rgb(252, 233, 233);
+    border: none;
+    outline: none;
+    padding: 10px;
+    text-align: center;
+    flex-grow: 1;
+}
+  
+.button {
+    display: inline-block;
+    margin-left: 15px;
+    background-color: rgba(253, 82, 82, 0.801);
+    border: none;
+    border-radius: 15px;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 10px;
+    cursor: pointer;
+    color: rgb(102, 101, 101);
+    width: auto;
+    height: auto;
+}
+  
+.back-button {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+  
+.back-button:hover {
+    background-color: rgba(182, 59, 59, 0.801);
+    transition: background-color 0.3s linear;
+}
+  
+.videoLesson {
+    display: block;
+    margin: 20px auto;
+    width: 1300px;
+    height: 700px;
+}
+  
+.description {
+    color: rgb(78, 78, 78);
+    text-align: left;
+    font-size: 180%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.link {
+    color:rgb(83, 156, 132)
+}

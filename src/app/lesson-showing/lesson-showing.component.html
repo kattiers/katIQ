@@ -1,0 +1,29 @@
+<div class="header">
+  <div class="logo">KatIQ</div>
+
+  <div class="header-search">
+      <form class="header-form" [formGroup]="searchForm" (ngSubmit)="onSearch()">
+          <input type="text" name="text" class="form-search" placeholder="Find the lesson you need..." formControlName="query" />
+      </form>
+  </div>
+</div>
+
+<div class="lessons" *ngIf="groupedLessons.length; else noLessons">
+  <ng-container *ngFor="let group of groupedLessons">
+    <h2 class="subject-title">{{ group.subject }}</h2>
+    <ul class="topic-name" *ngFor="let section of group.sections">
+      <li>{{ section.section }}</li>
+      <ol>
+        <li class="lesson" *ngFor="let lesson of section.lessons" [routerLink]="['/details', lesson.title]">
+          <span class="lesson-title">{{ lesson.title }}</span>
+          <span class="lesson-language">{{ lesson.language }}</span>
+        </li>
+      </ol>
+    </ul>
+  </ng-container>
+  <br>
+</div>
+
+<ng-template #noLessons>
+  <div class="no-lessons">No lessons found</div>
+</ng-template>
