@@ -70,4 +70,6 @@
     left: 50%; 
     width: 110px;
     height: 50px;
+    position: fixed;
+    transform: translateX(-50%);
 }
