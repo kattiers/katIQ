@@ -78,7 +78,7 @@
     
     .videoLesson {
         width: 95%;
-        height: auto;
+        height: 65%;
     }
     
     .description {
@@ -105,8 +105,8 @@
     }
     
     .videoLesson {
-        width: 100%;
-        height: auto;
+        width: 95%;
+        height: 65%;
     }
     
     .description {
