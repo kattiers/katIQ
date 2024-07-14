@@ -233,7 +233,7 @@
 
     .header {
         flex-direction: column;
-        align-items: flex-start;
+        align-items: center;
     }
 
     .header-search {
@@ -243,7 +243,6 @@
 
     .logo {
         font-size: 150%;
-        display: block;
         text-align: center;
     }
 }
@@ -290,7 +289,7 @@
 
     .header {
         flex-direction: column;
-        align-items: flex-start;
+        align-items: center; /* Центрируем элементы по горизонтали */
     }
 
     .header-search {
@@ -299,7 +298,6 @@
     }
 
     .logo {
-        display: block;
         text-align: center;
         font-size: 120%;
     }
