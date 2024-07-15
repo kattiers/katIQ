@@ -142,6 +142,7 @@
     margin-top: 30px;
     border-top: 2px solid rgb(218, 202, 202);
     width: 100%;
+    align-items: center;
 }
 
 .footer p {
@@ -158,6 +159,11 @@
 .social-icons img {
     width: 40px;
     height: 40px;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin: 0 10px;
 }
 
 .nav-bar {
