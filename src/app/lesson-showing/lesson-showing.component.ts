@@ -5,12 +5,19 @@ import { NgForOf } from '@angular/common';
 import { CommonModule } from '@angular/common';
 import { RouterModule, Router } from '@angular/router';
 import { ReactiveFormsModule, FormBuilder, FormGroup } from '@angular/forms';
+<<<<<<< HEAD
 import { StaffCarouselComponent } from '../staff-carousel/staff-carousel.component';
+=======
+>>>>>>> 15a3ad02e6979deca0d969367e883b5512354c92
 
 @Component({
   selector: 'app-lesson-showing',
   standalone: true,
+<<<<<<< HEAD
   imports: [RouterModule, NgForOf, CommonModule, ReactiveFormsModule, StaffCarouselComponent],
+=======
+  imports: [RouterModule, NgForOf, CommonModule, ReactiveFormsModule],
+>>>>>>> 15a3ad02e6979deca0d969367e883b5512354c92
   templateUrl: './lesson-showing.component.html',
   styleUrls: ['./lesson-showing.component.css'],
 })
@@ -44,6 +51,7 @@ export class LessonShowingComponent implements OnInit {
     console.log(this.activeUserName);
   }
 
+<<<<<<< HEAD
   // scrollToSection(section: string) {
   //   document.getElementById(section)?.scrollIntoView({ behavior: 'smooth' });
   // }
@@ -62,6 +70,8 @@ export class LessonShowingComponent implements OnInit {
     }
   }
 
+=======
+>>>>>>> 15a3ad02e6979deca0d969367e883b5512354c92
   loadLessons(): void {
     this.lessons = this.lessonsService.getLessons();
     this.groupLessonsBySubjectAndSection(this.lessons);

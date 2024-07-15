@@ -1,43 +1,74 @@
 {
+<<<<<<< HEAD
   "hash": "c5c25ad2",
   "configHash": "ac5bc4b7",
   "lockfileHash": "5eaf5573",
   "browserHash": "1267304d",
+=======
+  "hash": "f76ff494",
+  "configHash": "fafebead",
+  "lockfileHash": "df52d2e6",
+  "browserHash": "ec776f0e",
+>>>>>>> 15a3ad02e6979deca0d969367e883b5512354c92
   "optimized": {
     "@angular/common": {
       "src": "../../../../../node_modules/@angular/common/fesm2022/common.mjs",
       "file": "@angular_common.js",
+<<<<<<< HEAD
       "fileHash": "4a3ce709",
+=======
+      "fileHash": "e6dcaef7",
+>>>>>>> 15a3ad02e6979deca0d969367e883b5512354c92
       "needsInterop": false
     },
     "@angular/common/http": {
       "src": "../../../../../node_modules/@angular/common/fesm2022/http.mjs",
       "file": "@angular_common_http.js",
+<<<<<<< HEAD
       "fileHash": "8ed3260c",
+=======
+      "fileHash": "642dec26",
+>>>>>>> 15a3ad02e6979deca0d969367e883b5512354c92
       "needsInterop": false
     },
     "@angular/core": {
       "src": "../../../../../node_modules/@angular/core/fesm2022/core.mjs",
       "file": "@angular_core.js",
+<<<<<<< HEAD
       "fileHash": "6127de4b",
+=======
+      "fileHash": "99128129",
+>>>>>>> 15a3ad02e6979deca0d969367e883b5512354c92
       "needsInterop": false
     },
     "@angular/forms": {
       "src": "../../../../../node_modules/@angular/forms/fesm2022/forms.mjs",
       "file": "@angular_forms.js",
+<<<<<<< HEAD
       "fileHash": "7c7168c1",
+=======
+      "fileHash": "75786b7e",
+>>>>>>> 15a3ad02e6979deca0d969367e883b5512354c92
       "needsInterop": false
     },
     "@angular/platform-browser": {
       "src": "../../../../../node_modules/@angular/platform-browser/fesm2022/platform-browser.mjs",
       "file": "@angular_platform-browser.js",
+<<<<<<< HEAD
       "fileHash": "e3b5494e",
+=======
+      "fileHash": "23c5e4f9",
+>>>>>>> 15a3ad02e6979deca0d969367e883b5512354c92
       "needsInterop": false
     },
     "@angular/router": {
       "src": "../../../../../node_modules/@angular/router/fesm2022/router.mjs",
       "file": "@angular_router.js",
+<<<<<<< HEAD
       "fileHash": "64b7375d",
+=======
+      "fileHash": "e1919b22",
+>>>>>>> 15a3ad02e6979deca0d969367e883b5512354c92
       "needsInterop": false
     }
   },
