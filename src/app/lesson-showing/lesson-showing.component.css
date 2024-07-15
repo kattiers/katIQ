@@ -2,11 +2,7 @@
     color: rgb(134, 1, 1);
     text-align: center;
     font-size: 12px;
-<<<<<<< HEAD
     margin-top: 30px;
-=======
-    margin-top: 10px;
->>>>>>> 15a3ad02e6979deca0d969367e883b5512354c92
 }
 
 .lessons {
@@ -55,10 +51,7 @@
 
 .header {
     margin: 50px;
-<<<<<<< HEAD
     margin-top: 70px;
-=======
->>>>>>> 15a3ad02e6979deca0d969367e883b5512354c92
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -193,7 +186,6 @@
     display: flex;
 }
 
-<<<<<<< HEAD
 .footer {
     /* background-color: rgb(252, 233, 233); */
     background-color: rgb(190, 168, 168);
@@ -259,8 +251,6 @@
     border-bottom: 2px solid rgb(218, 202, 202);
   }
 
-=======
->>>>>>> 15a3ad02e6979deca0d969367e883b5512354c92
 @media (max-width: 768px) {
     .logoKattiers {
         font-size: 10px;
@@ -321,7 +311,6 @@
         font-size: 150%;
         text-align: center;
     }
-<<<<<<< HEAD
 
     .footer {
         padding: 15px 0;
@@ -340,8 +329,6 @@
         display: block;
         margin: 5px 0;
     }
-=======
->>>>>>> 15a3ad02e6979deca0d969367e883b5512354c92
 }
 
 @media (max-width: 480px) {
@@ -386,11 +373,7 @@
 
     .header {
         flex-direction: column;
-<<<<<<< HEAD
         align-items: center;
-=======
-        align-items: center; /* Центрируем элементы по горизонтали */
->>>>>>> 15a3ad02e6979deca0d969367e883b5512354c92
     }
 
     .header-search {
@@ -402,7 +385,6 @@
         text-align: center;
         font-size: 120%;
     }
-<<<<<<< HEAD
 
     .footer {
         padding: 10px 0;
@@ -420,6 +402,4 @@
     .nav-bar ul li a {
         font-size: 14px;
     }
-=======
->>>>>>> 15a3ad02e6979deca0d969367e883b5512354c92
 }
