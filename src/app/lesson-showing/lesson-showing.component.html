@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <div class="nav-bar">
   <ul>
     <li><a href="#" (click)="scrollToSection('lessons')">Lessons</a></li>
@@ -7,8 +6,6 @@
   </ul>
 </div>
 
-=======
->>>>>>> 15a3ad02e6979deca0d969367e883b5512354c92
 <div class="header">
   <div class="logo">KatIQ</div>
 
@@ -19,11 +16,7 @@
   </div>
 </div>
 
-<<<<<<< HEAD
 <div class="lessons" id = "lessons" *ngIf="groupedLessons.length; else noLessons">
-=======
-<div class="lessons" *ngIf="groupedLessons.length; else noLessons">
->>>>>>> 15a3ad02e6979deca0d969367e883b5512354c92
   <ng-container *ngFor="let group of groupedLessons">
     <h2 class="subject-title">{{ group.subject }}</h2>
     <ul class="topic-name" *ngFor="let section of group.sections">
@@ -43,7 +36,6 @@
   <div class="no-lessons">No lessons found</div>
 </ng-template>
 
-<<<<<<< HEAD
 
 <app-staff-carousel id = "volunteers"></app-staff-carousel>
 
@@ -61,6 +53,3 @@
   <p>This platform is a non-profit project to spread knowledge</p>
   <div class="logoKattiers">Knowledge and Training Interactive Quest Platform by Kattiers</div>
 </div>
-=======
-<div class="logoKattiers">Knowledge and Training Interactive Quest Platform by Kattiers</div>
->>>>>>> 15a3ad02e6979deca0d969367e883b5512354c92
