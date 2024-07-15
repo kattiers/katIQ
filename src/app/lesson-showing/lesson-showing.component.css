@@ -154,6 +154,7 @@
 
 .social-icons {
     margin: 10px 0;
+    justify-content: center;
     align-items: center;
     text-align: center;
 }
@@ -161,15 +162,11 @@
 .social-icons img {
     width: 40px;
     height: 40px;
-    align-items: center;
-    text-align: center;
 }
 
 .social-icons a {
     display: inline-block;
     margin: 0 10px;
-    align-items: center;
-    text-align: center;
 }
 
 .nav-bar {
