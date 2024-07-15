@@ -51,7 +51,6 @@ export class LessonShowingComponent implements OnInit {
     console.log(this.activeUserName);
   }
 
-<<<<<<< HEAD
   // scrollToSection(section: string) {
   //   document.getElementById(section)?.scrollIntoView({ behavior: 'smooth' });
   // }
@@ -70,8 +69,6 @@ export class LessonShowingComponent implements OnInit {
     }
   }
 
-=======
->>>>>>> 15a3ad02e6979deca0d969367e883b5512354c92
   loadLessons(): void {
     this.lessons = this.lessonsService.getLessons();
     this.groupLessonsBySubjectAndSection(this.lessons);
