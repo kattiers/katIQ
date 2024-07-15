@@ -5,19 +5,12 @@ import { NgForOf } from '@angular/common';
 import { CommonModule } from '@angular/common';
 import { RouterModule, Router } from '@angular/router';
 import { ReactiveFormsModule, FormBuilder, FormGroup } from '@angular/forms';
-<<<<<<< HEAD
 import { StaffCarouselComponent } from '../staff-carousel/staff-carousel.component';
-=======
->>>>>>> 15a3ad02e6979deca0d969367e883b5512354c92
 
 @Component({
   selector: 'app-lesson-showing',
   standalone: true,
-<<<<<<< HEAD
   imports: [RouterModule, NgForOf, CommonModule, ReactiveFormsModule, StaffCarouselComponent],
-=======
-  imports: [RouterModule, NgForOf, CommonModule, ReactiveFormsModule],
->>>>>>> 15a3ad02e6979deca0d969367e883b5512354c92
   templateUrl: './lesson-showing.component.html',
   styleUrls: ['./lesson-showing.component.css'],
 })
@@ -58,7 +51,7 @@ export class LessonShowingComponent implements OnInit {
   scrollToSection(section: string) {
     const element = document.getElementById(section);
     if (element) {
-      const headerOffset = 100; // Offset in pixels
+      const headerOffset = 100;
       const elementPosition = element.getBoundingClientRect().top;
       const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
 
