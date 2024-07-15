@@ -42,7 +42,7 @@
     font-size: 130%;
 }
 
-.header, .user-greeting, .header-form, .footer, .social-icons, .nav-bar ul, .nav-bar ul li {
+.header, .user-greeting, .header-form, .social-icons, .nav-bar ul, .nav-bar ul li {
     display: flex;
     align-items: center;
 }
@@ -62,7 +62,7 @@
 }
 
 .header {
-    margin: 50px 50px 0 50px;
+    margin: 70px 50px 0 50px;
     flex-direction: row;
 }
 
