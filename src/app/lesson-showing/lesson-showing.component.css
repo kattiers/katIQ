@@ -55,6 +55,11 @@
     display: inline-block;
 }
 
+.header-search {
+    align-items: center;
+    text-align: center;
+}
+
 .dot {
     height: 5px;
     margin-right: 3px;
@@ -140,7 +145,6 @@
     text-align: center;
     padding: 20px 0;
     margin-top: 30px;
-    border-top: 2px solid rgb(218, 202, 202);
     width: 100%;
     align-items: center;
 }
@@ -229,6 +233,7 @@
     }
     .lessons {
         margin: 0 4%;
+        margin-bottom: 20px;
     }
     .lesson {
         width: 100%;
@@ -269,6 +274,7 @@
     }
     .lessons {
         margin: 0 2%;
+        margin-bottom: 20px;
     }
     .header-search {
         width: 90%;
