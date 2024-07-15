@@ -1,5 +1,5 @@
 <div class="carousel">
-  <button class="carousel-btn prev" (click)="moveSlide(-1)">&#10094;</button>
+ <!-- <button class="carousel-btn prev" (click)="moveSlide(-1)">&#10094;</button> -->
   <div class="carousel-track-container">
     <ul class="carousel-track" [ngStyle]="{'transform': 'translateX(-' + currentIndex * 100 + '%)', 'transition': 'transform 0.5s ease-in-out'}">
       <li class="carousel-slide" *ngFor="let teacher of teachers">
