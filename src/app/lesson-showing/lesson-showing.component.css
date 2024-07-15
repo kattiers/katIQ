@@ -209,7 +209,7 @@
 
 @media (max-width: 768px) {
     .logoKattiers, .footer p {
-        font-size: 10px;
+        font-size: 14px;
     }
     .header, .header-container {
         flex-direction: column;
@@ -280,7 +280,7 @@
         width: 90%;
     }
     .footer p {
-        font-size: 10px;
+        font-size: 12px;
     }
     .social-icons img {
         width: 20px;
