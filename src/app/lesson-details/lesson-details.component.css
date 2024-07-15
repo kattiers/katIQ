@@ -88,7 +88,8 @@
     
     .videoLesson {
         width: 95%;
-        height: 65%;
+        height: 80%;
+        margin-top: 60px;
     }
     
     .description {
@@ -116,7 +117,8 @@
     
     .videoLesson {
         width: 95%;
-        height: 65%;
+        height: 80%;
+        margin-top: 50px;
     }
     
     .description {
