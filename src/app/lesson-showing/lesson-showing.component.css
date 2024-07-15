@@ -5,19 +5,19 @@
     margin-top: 30px;
 }
 
-.lessons {
+.lessons, .header-search, .form-search, .signUp, .logIn, .logInTeacher, .button, .footer, .header-search {
     background-color: rgb(252, 233, 233);
+}
+
+.lessons {
     border-radius: 15px;
-    margin: 2%;
-    margin-left: 6%;
-    margin-right: 6%;
+    margin: 2% 6%;
 }
 
 .subject-title {
     text-align: center;
     font-size: 1.5em;
-    margin-top: 2em;
-    margin-bottom: 1em;
+    margin: 2em 0 1em;
     font-weight: bold;
     color: rgb(134, 1, 1);
     padding-top: 10px;
@@ -42,19 +42,28 @@
     font-size: 130%;
 }
 
+.header, .user-greeting, .header-form, .footer, .social-icons, .nav-bar ul, .nav-bar ul li {
+    display: flex;
+    align-items: center;
+}
+
+.header, .header-form {
+    justify-content: space-between;
+}
+
+.dot, .social-icons a, .header-search, .header-form, .footer {
+    display: inline-block;
+}
+
 .dot {
     height: 5px;
     margin-right: 3px;
     padding-bottom: 3px;
-    display: inline-block;
 }
 
 .header {
-    margin: 50px;
-    margin-top: 70px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    margin: 50px 50px 0 50px;
+    flex-direction: row;
 }
 
 .lesson-language {
@@ -67,24 +76,16 @@
 .logo {
     font-size: 190%;
     color: rgb(134, 1, 1);
-    display: inline-block;
     font-weight: 900;
 }
 
-.header-form {
-    display: inline-block;
-}
-
 .form-search {
-    background-color: rgb(252, 233, 233);
     border: none;
     outline: none;
     font-weight: 700;
     font-size: 16px;
-    margin-top: 5px;
+    margin: 5px 0 0 15px;
     color: rgb(61, 61, 61);
-    margin-left: 15px;
-    display: inline-block;
 }
 
 .magnifier {
@@ -94,23 +95,15 @@
 }
 
 .header-search {
-    background-color: rgb(252, 233, 233);
     border-radius: 25px;
     height: 30px;
     width: 20%;
     margin-left: 5%;
-    display: flex;
-    align-items: center;
-    float: right;
     padding: 0 10px;
 }
 
-.signUp,
-.logIn,
-.logInTeacher {
-    display: inline-block;
+.signUp, .logIn, .logInTeacher, .button {
     margin-left: 15px;
-    background-color: rgb(252, 233, 233);
     border-radius: 15px;
     font-weight: 700;
     font-size: 16px;
@@ -119,77 +112,31 @@
     color: rgb(102, 101, 101);
 }
 
-.signUp:hover,
-.logIn:hover,
-.logInTeacher:hover {
+.signUp:hover, .logIn:hover, .logInTeacher:hover, .button:hover {
     background-color: rgb(218, 202, 202);
-    transition: all .3s linear;
-    -webkit-transition: all .3s linear;
-    -moz-transition: all .3s linear; 
-    color: rgb(102, 101, 101);
-}
-
-#logOut {
-    float: right;
-    width: auto;
-    height: auto;
-}
-
-.button {
-    margin-left: 25px;
-    border-color: rgba(102, 101, 101, 0.034);
-    background-color: rgb(252, 233, 233);
-    border-radius: 15px;
-    font-weight: 700;
-    font-size: 16px;
-    padding: 10px;
-    cursor: pointer;
-    color: rgb(102, 101, 101);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.button:hover {
-    background-color: rgb(218, 202, 202);
-    transition: all .3s linear;
-    -webkit-transition: all .3s linear;
-    -moz-transition: all .3s linear; 
+    transition: all 0.3s linear;
     color: rgb(102, 101, 101);
 }
 
 .no-lessons {
     color: rgb(71, 71, 71);
     text-align: center;
-    margin-top: 20px;
-    margin-bottom: 40px;
+    margin: 20px 0 40px;
     font-size: 120%;
-}
-
-.user-greeting {
-    display: flex;
-    align-items: center;
 }
 
 .header-search .form-search {
     flex: 1;
     width: 100%;
     height: auto;
-    border: none; 
-    outline: none; 
+    border: none;
+    outline: none;
     background: none;
     font-size: 15px;
 }
 
-.header-form {
-    width: 100%;
-    display: flex;
-}
-
 .footer {
-    /* background-color: rgb(252, 233, 233); */
     background-color: rgb(190, 168, 168);
-    /* background-color: rgb(156, 146, 146); */
     text-align: center;
     padding: 20px 0;
     margin-top: 30px;
@@ -199,18 +146,12 @@
 .footer p {
     font-size: 16px;
     color: rgb(87, 86, 86);
-    /* color: rgb(252, 234, 234); */
     font-weight: 500;
     margin: 10px 0;
 }
 
 .social-icons {
     margin: 10px 0;
-}
-
-.social-icons a {
-    margin: 0 10px;
-    display: inline-block;
 }
 
 .social-icons img {
@@ -226,105 +167,72 @@
     width: 100%;
     top: 0;
     z-index: 1000;
-  }
-  
-  .nav-bar ul {
+}
+
+.nav-bar ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-  }
-  
-  .nav-bar ul li {
-    display: inline;
+}
+
+.nav-bar ul li {
     margin: 0 15px;
-  }
-  
-  .nav-bar ul li a {
+}
+
+.nav-bar ul li a {
     color: rgb(87, 86, 86);
     text-decoration: none;
     font-weight: bold;
     font-size: 16px;
-  }
-  
-  .nav-bar ul li a:hover {
+}
+
+.nav-bar ul li a:hover {
     border-bottom: 2px solid rgb(218, 202, 202);
-  }
+}
 
 @media (max-width: 768px) {
-    .logoKattiers {
+    .logoKattiers, .footer p {
         font-size: 10px;
-        margin-top: 5px;
     }
-    .header-container {
+    .header, .header-container {
         flex-direction: column;
     }
-
-    .headline {
-        font-size: 150%;
-        padding: 5px;
-    }
-
     .button {
         font-size: 14px;
         padding: 8px;
     }
-
     .videoLesson {
         width: 95%;
         height: auto;
     }
-
     .description {
         font-size: 140%;
-        margin-left: 10px;
-        margin-right: 10px;
+        margin: 0 10px;
     }
-
     .back-button {
         left: 5px;
         top: 40%;
         transform: translateY(-40%);
     }
-
     .lessons {
-        margin-left: 4%;
-        margin-right: 4%;
+        margin: 0 4%;
     }
-
     .lesson {
         width: 100%;
         margin: 1% 0;
     }
-
-    .header {
-        flex-direction: column;
-        align-items: center;
-    }
-
     .header-search {
         width: 80%;
         margin: 10px 0;
     }
-
     .logo {
         font-size: 150%;
-        text-align: center;
     }
-
-    .footer {
-        padding: 15px 0;
-    }
-
-    .footer p {
-        font-size: 12px;
-    }
-
     .social-icons img {
         width: 25px;
         height: 25px;
     }
-
     .nav-bar ul li {
         display: block;
         margin: 5px 0;
@@ -332,73 +240,38 @@
 }
 
 @media (max-width: 480px) {
-    .logoKattiers {
-        font-size: 10px;
-        margin-top: 5px;
-    }
-  
-    .headline {
+    .headline, .logo {
         font-size: 120%;
     }
-
     .button {
         font-size: 12px;
         padding: 5px;
     }
-
     .videoLesson {
         width: 100%;
         height: auto;
     }
-
     .description {
         font-size: 120%;
     }
-
     .back-button {
         left: 5px;
         top: 30%;
         transform: translateY(-30%);
     }
-
     .lessons {
-        margin-left: 2%;
-        margin-right: 2%;
+        margin: 0 2%;
     }
-
-    .lesson {
-        width: 100%;
-        margin: 1% 0;
-    }
-
-    .header {
-        flex-direction: column;
-        align-items: center;
-    }
-
     .header-search {
         width: 90%;
-        margin: 10px 0;
     }
-
-    .logo {
-        text-align: center;
-        font-size: 120%;
-    }
-
-    .footer {
-        padding: 10px 0;
-    }
-
     .footer p {
         font-size: 10px;
     }
-
     .social-icons img {
         width: 20px;
         height: 20px;
     }
-
     .nav-bar ul li a {
         font-size: 14px;
     }
