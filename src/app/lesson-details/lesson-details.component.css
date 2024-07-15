@@ -1,5 +1,4 @@
 .header-container {
-<<<<<<< HEAD
     /* display: flex;
     align-items: center;
     justify-content: center;
@@ -14,13 +13,6 @@
     width: 100%;
     /* background-color: rgb(252, 233, 233); */
     z-index: 1000;
-=======
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    margin-top: 50px;
->>>>>>> 15a3ad02e6979deca0d969367e883b5512354c92
 }
   
 .headline {
@@ -66,10 +58,7 @@
     margin: 20px auto;
     width: 1300px;
     height: 700px;
-<<<<<<< HEAD
     margin-top: 7%; /* = 100px */
-=======
->>>>>>> 15a3ad02e6979deca0d969367e883b5512354c92
 }
   
 .description {
