@@ -19,7 +19,7 @@ export class StaffCarouselComponent {
     {
       img: 'assets/Adilkhan Nursha.jpeg',
       name: 'Adilkhan Nursha',
-      details: `<strong>Founder</strong> of the Knowledge for All — <strong>partner</strong> of the KatIQ`
+      details: `<strong>Founder</strong> of the Knowledge for All — <strong>Partner</strong> of the KatIQ`
     }
     // {
     //   img: 'assets/teacher3.jpg',
