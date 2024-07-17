@@ -1,3 +1,16 @@
+
+Ваш файл GitHub Actions выглядит правильно, но проблема заключается в том, что среда всё ещё использует Node.js версии 16.20.2, вместо указанной версии 18.13.
+
+Давайте добавим дополнительные шаги, чтобы убедиться, что среда использует нужную версию Node.js. Возможно, нужно удалить кэш npm, чтобы избежать использования старой версии Node.js.
+
+Попробуйте следующее:
+
+Убедитесь, что кэш Node.js удален.
+Убедитесь, что Node.js версии 18.13 установлена.
+Обновим ваш файл workflow:
+
+yaml
+Copy code
 name: GitHub Pages
 
 on:
@@ -12,6 +25,9 @@ jobs:
     steps:
     - name: Checkout repository
       uses: actions/checkout@v3
+
+    - name: Clear npm cache
+      run: npm cache clean --force
 
     - name: Set up Node.js 18.x
       uses: actions/setup-node@v3
