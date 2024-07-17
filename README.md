@@ -1,31 +1,25 @@
-<<<<<<< HEAD
-# Shupikava0
+# KatIQ - Образовательная платформа
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.6.
+KatIQ - это современная образовательная платформа, предлагающая высококачественные видеоуроки и статьи по STEM дисциплинам. Наша цель - сделать знания доступными и вдохновляющими для учеников всех возрастов.
 
-## Development server
+## Развертывание
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Для запуска приложения KatIQ локально, выполните следующие шаги:
 
-## Code scaffolding
+1. Убедитесь, что у вас установлен Node.js версии 16 или выше.
+2. Клонируйте репозиторий: `git clone https://github.com/kattiers/KatIQ.git`
+3. Перейдите в папку проекта: `cd KatIQ`
+4. Установите зависимости: `npm install`
+5. Запустите сервер разработки: `ng serve`
+6. Откройте браузер и перейдите по адресу `http://localhost:4200/`
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Вы также можете посетить развернутую версию KatIQ на GitHub Pages: [https://kattiers.github.io/KatIQ/](https://kattiers.github.io/katIQ/)
 
-## Build
+## Контакты
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Если у вас есть вопросы или предложения по проекту KatIQ, вы можете связаться с нами:
 
-## Running unit tests
+- Электронная почта: [katiq_bykattiers@mail.ru](mailto:katiq_bykattiers@mail.ru)
+- Социальные сети: [Instagram](https://www.instagram.com/katiq_bykattiers?igsh=a3dpMmd1aDZ4Mjl4), [Telegram](https://t.me/katiq_bykattiers),
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
-=======
-# katIQ
->>>>>>> fb4bfdf608a3b20fea24148bb4bdddc968295774
+Мы будем рады услышать ваши отзывы и пожелания!
