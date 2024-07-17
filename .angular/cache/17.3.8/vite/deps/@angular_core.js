@@ -451,11 +451,7 @@ import {
   ɵɵvalidateIframeAttribute,
   ɵɵviewQuery,
   ɵɵviewQuerySignal
-<<<<<<< HEAD
 } from "./chunk-RBFO6OI2.js";
-=======
-} from "./chunk-2QDPCBAK.js";
->>>>>>> 8b69bde4f2d047f1c29c778f1054f66c21ced18e
 export {
   ANIMATION_MODULE_TYPE,
   APP_BOOTSTRAP_LISTENER,
