@@ -24,7 +24,7 @@ export class StaffCarouselComponent {
     {
        img: 'assets/Sofya Evdokimova.jpeg',
        name: 'Sofya Evdokimova',
-       details: `<strong>Head of Social Media<strong>, Copywriter of the KatIQ Platform`
+       details: `<strong>Head of Social Media</strong>, Copywriter of the KatIQ Platform`
     },
     // {
     //   img: 'assets/teacher4.jpg',
