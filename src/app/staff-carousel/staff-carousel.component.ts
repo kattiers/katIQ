@@ -22,7 +22,7 @@ export class StaffCarouselComponent {
       details: `<strong>Founder</strong> of the Knowledge for All — <strong>Partner</strong> of the KatIQ`
     },
     {
-       img: 'assets/Sofya Evdokimova.jpeg',
+       img: 'assets/Sofya Evdokimova.jpg',
        name: 'Sofya Evdokimova',
        details: `<strong>Head of Social Media</strong>, Copywriter of the KatIQ Platform`
     },
