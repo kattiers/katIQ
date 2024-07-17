@@ -31,9 +31,6 @@ jobs:
     - name: Build
       run: npm run build -- --configuration production
 
-    - name: Copy README.md to dist
-      run: cp README.md dist/KatIQ/browser/README.md
-
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
       with:
