@@ -1,0 +1,15 @@
+<div class="carousel">
+ <!-- <button class="carousel-btn prev" (click)="moveSlide(-1)">&#10094;</button> -->
+  <div class="carousel-track-container">
+    <ul class="carousel-track" [ngStyle]="{'transform': 'translateX(-' + currentIndex * 100 + '%)', 'transition': 'transform 0.5s ease-in-out'}">
+      <li class="carousel-slide" *ngFor="let teacher of teachers">
+        <div class="teacher">
+          <img [src]="teacher.img" [alt]="teacher.name">
+          <h3>{{ teacher.name }}</h3>
+          <p [innerHTML]="teacher.details"></p>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <button class="carousel-btn next" (click)="moveSlide(1)">&#10095;</button>
+</div>
