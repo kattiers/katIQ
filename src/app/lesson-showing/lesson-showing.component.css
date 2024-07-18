@@ -91,6 +91,8 @@
     font-size: 16px;
     margin: 5px 0 0 15px;
     color: rgb(61, 61, 61);
+    padding: 0 10px;
+    box-sizing: border-box;
 }
 
 .magnifier {
@@ -105,6 +107,7 @@
     width: 20%;
     margin-left: 5%;
     padding: 0 10px;
+    max-width: 400px;
 }
 
 .signUp, .logIn, .logInTeacher, .button {
@@ -147,6 +150,10 @@
     margin-top: 30px;
     width: 100%;
     align-items: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
 
 .footer p {
