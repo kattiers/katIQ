@@ -51,7 +51,7 @@
     justify-content: space-between;
 }
 
-.dot, .social-icons a, .header-search, .header-form, .footer {
+.dot, .social-icons a, .header-search, .header-form {
     display: inline-block;
 }
 
@@ -156,6 +156,7 @@ html, body {
     flex: 1;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
 }
 
 .footer {
