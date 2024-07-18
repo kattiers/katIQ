@@ -171,6 +171,10 @@ html, body {
     right: 0;
     flex-shrink: 0;
     margin-top: auto;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: space-between;
+    min-height: 450px;
 }
 
 .footer p {
