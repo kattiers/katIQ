@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/KatIQ/browser",
+            "outputPath": "dist/KatIQ",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -22,7 +22,12 @@
             "tsConfig": "tsconfig.app.json",
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              {
+                "glob": "404.html",
+                "input": "src/assets/",
+                "output": "/"
+              }
             ],
             "styles": [
               "src/styles.css"

@@ -2,8 +2,9 @@ services:
   - type: web
     name: KatIQ
     env: static
-    staticPublishPath: dist/KatIQ/browser/browser
+    staticPublishPath: dist/KatIQ/browser
     buildCommand: npm run build
     routes:
       - src: /(.*)
         dest: /index.html
+        status: 200
