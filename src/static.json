@@ -1,0 +1,7 @@
+{
+    "root": "dist/KatIQ",
+    "cleanUrls": false,
+    "routes": {
+      "/**": "index.html"
+    }
+}
