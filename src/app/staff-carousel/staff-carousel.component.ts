@@ -59,7 +59,7 @@ export class StaffCarouselComponent {
     // {
     //   img: 'assets/teacher4.jpg',
     //   name: 'Ольга Сухаревская',
-    //   details: `Преподаватель<br>Опыт работы в International House более 10 лет<br>Имеет сертификат CELTA<br>Проводит занятия в детских группах.`
+    //   details: `Преподаватель`
     // }
   ];
 
