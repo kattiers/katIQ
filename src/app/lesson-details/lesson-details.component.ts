@@ -28,7 +28,7 @@ export class LessonDetailsComponent {
   isLinkAvailable = true;
 
   constructor() {
-    this.lessonTitle = String(this.route.snapshot.params['title']);
+    this.lessonTitle = decodeURIComponent(this.route.snapshot.params['title']);
 
     this.lesson = this.lessonService.getLessonByTitle(String(this.lessonTitle));
     if (this.lesson) {
