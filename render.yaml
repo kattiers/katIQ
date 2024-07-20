@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: KatIQ
+    env: static
+    staticPublishPath: dist/KatIQ/browser/browser
+    buildCommand: npm run build
+    routes:
+      - src: /(.*)
+        dest: /index.html
