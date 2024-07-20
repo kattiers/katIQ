@@ -14,7 +14,7 @@ export class StaffCarouselComponent {
     {
       img: 'assets/Katsiaryna Shupikava.png',
       name: 'Katsiaryna Shupikava',
-      details: `<strong>Founder</strong> of the KatIQ Platform, Teacher`
+      details: `<strong>Founder</strong> of the KatIQ Platform, Instructional Designer, Teacher`
     },
     {
       img: 'assets/Adilkhan Nursha.jpeg',
@@ -22,7 +22,11 @@ export class StaffCarouselComponent {
       details: `<strong>Founder</strong> of the Knowledge for All — <strong>Partner</strong> of the KatIQ`
     },
     {
-      img: 'assets/Karina Pigaleva.jpg',
+      img: 'assets/Nursultan Bekbossyn.jpg',
+      name: 'Nursultan Bekbossyn',
+      details: `<strong>Data Analyst</strong>, Educational Content Editor, Instructional Designer`
+    }, 
+    { img: 'assets/Karina Pigaleva.jpg',
       name: 'Karina Pigaleva',
       details: `<strong>Head of Social Media</strong>, Copywriter of the KatIQ Platform`
     },
@@ -45,6 +49,11 @@ export class StaffCarouselComponent {
         img: 'assets/Assem Sissenbay.jpeg',
         name: 'Assem Sissenbay',
         details: `Volunteer <strong>Math Teacher</strong>`
+    }, 
+    {
+      img: 'assets/Seymonkhon Tukhtasinov.jpg',
+      name: 'Seymonkhon Tukhtasinov',
+      details: `Volunteer <strong>Math Teacher</strong>`
     }
     // {
     //   img: 'assets/teacher4.jpg',
