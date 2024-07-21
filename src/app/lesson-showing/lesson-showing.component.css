@@ -32,6 +32,7 @@
 }
 
 .lesson {
+    vertical-align: top;
     width: 48%;
     margin: 1%;
     display: inline-block;
