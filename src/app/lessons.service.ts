@@ -130,6 +130,13 @@ export class LessonsService {
     return this.lessons.find(lessons => lessons.title === title);
   }
 
+<<<<<<< HEAD
+=======
+  getLessonById(id: number): Lesson | undefined {
+    return this.lessons.find(lessons => lessons.id === id);
+  }
+
+>>>>>>> 9d75f1ce1e3b2c93fabc6ff56c6bfeddc61e1b5f
   searchLessons(query: string): Lesson[] {
     return this.lessons.filter(lesson => lesson.title.toLowerCase().includes(query.toLowerCase()));
   }
