@@ -20,17 +20,19 @@ export class LessonDetailsComponent {
   private sanitizer = inject(DomSanitizer);
 
   route: ActivatedRoute = inject(ActivatedRoute);
-  lessonTitle = '';
+  lessonId: number = 0;
   lessonSection = '';
   lessonLink: any = '';
   lessonDescription: any = '';
   lesson: Lesson | undefined;
   isLinkAvailable = true;
+  lessonTitle: any = '';
 
   constructor() {
-    this.lessonTitle = decodeURIComponent(this.route.snapshot.params['title']);
+    this.lessonId = Number(decodeURIComponent(this.route.snapshot.params['id']));
 
-    this.lesson = this.lessonService.getLessonByTitle(String(this.lessonTitle));
+    this.lesson = this.lessonService.getLessonById(this.lessonId);
+    this.lessonTitle = this.lesson?.title;
     if (this.lesson) {
       if (this.lesson.link === '-') {
         this.isLinkAvailable = false;

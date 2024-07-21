@@ -23,7 +23,7 @@
       <ul class="topic-name" *ngFor="let section of group.sections">
         <li>{{ section.section }}</li>
         <ol>
-          <li class="lesson" *ngFor="let lesson of section.lessons" [routerLink]="['/details', lesson.title]">
+          <li class="lesson" *ngFor="let lesson of section.lessons" [routerLink]="['/details', lesson.id]">
             <span class="lesson-title">{{ lesson.title }}</span>
             <span class="lesson-language">{{ lesson.language }}</span>
           </li>
