@@ -17,9 +17,9 @@ export class StaffCarouselComponent {
       details: `<strong>Founder</strong> of the KatIQ Platform, Instructional Designer, Teacher`
     },
     {
-      img: 'assets/Adilkhan Nursha.jpeg',
-      name: 'Adilkhan Nursha',
-      details: `<strong>Founder</strong> of the Knowledge for All — <strong>Partner</strong> of the KatIQ`
+      img: 'assets/Knowledge for All.jpg',
+      name: 'Knowledge for All',
+      details: `<strong>Partner</strong> of the KatIQ Platform`
     },
     {
       img: 'assets/Nursultan Bekbossyn.jpg',
