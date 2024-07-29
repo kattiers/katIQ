@@ -79,7 +79,7 @@ export class StaffCarouselComponent {
     {
       img: 'assets/Almira Batyrbekova.jpg',
       name: 'Almira Batyrbekova',
-      details: `Volunteer <strong>Biology Teacher</strong>`
+      details: `Volunteer <strong>Biology Teacher</strong> <br> Kazakhstan`
     },
     {
       img: 'assets/Ekaterina Russkih.jpg',
