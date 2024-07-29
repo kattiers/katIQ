@@ -112,7 +112,7 @@ export class LessonsService {
    },
    {
     title: "Введение в тригонометрию",
-    section: "triginometry",
+    section: "Trigonometry",
     subject: "Mathematics",
     language: "rus",
     link: "https://www.youtube.com/embed/XMUTZ4JGR7Q",
