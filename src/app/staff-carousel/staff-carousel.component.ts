@@ -14,7 +14,7 @@ export class StaffCarouselComponent {
     {
       img: 'assets/Katsiaryna Shupikava.png',
       name: 'Katsiaryna Shupikava',
-      details: `<strong>Founder</strong> of the KatIQ Platform, Instructional Designer, Teacher`
+      details: `<strong>Founder</strong> of the KatIQ Platform, Instructional Designer, Teacher <br> Belarus`
     },
     {
       img: 'assets/Knowledge for All.jpg',
