@@ -37,9 +37,9 @@ export class LessonDetailsComponent {
       } else {
         this.lessonLink = this.sanitizer.bypassSecurityTrustResourceUrl(this.lesson.link);
       }
-      let lessonDescriptionWithoutLinks = this.lesson.description.replace(/@/g, '<br>');
-      let lessonDescriptionWithLinksAndStrong = lessonDescriptionWithoutLinks.replace(/!(.*?)!/g, '<strong>$1</strong>');
-      this.lessonDescription = this.sanitizer.bypassSecurityTrustHtml(lessonDescriptionWithLinksAndStrong.replace(/\*(.*?)\*/g, '<a href="$1" target="_blank" style="color: rgb(83, 156, 132);"> (Click to see additional training material) </a>'));
+      let lessonWithLinks = this.lesson.description.replace(/\*(.*?)\*/g, '<a href="$1" target="_blank" style="color: rgb(83, 156, 132);"> (Click to see additional training material) </a>');
+      let lessonWithParagraphs = lessonWithLinks.replace(/@/g, '<br>');
+      this.lessonDescription = this.sanitizer.bypassSecurityTrustHtml(lessonWithParagraphs.replace(/!(.*?)!/g, '<strong>$1</strong>'));
     }
   }
 

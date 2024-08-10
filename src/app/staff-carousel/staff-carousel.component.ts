@@ -72,20 +72,15 @@ export class StaffCarouselComponent {
       details: `<strong>Head of Social Media</strong>, Copywriter of the KatIQ Platform <br> Russia`
     },
     {
-      img: 'assets/Alikhan Aimakov.jpg',
-      name: 'Alikhan Aimakov',
-      details: `<strong>Head of Social Media</strong>, Copywriter of the KatIQ Platform <br> Kazakhstan`
-    },
-    {
-      img: 'assets/Karshyga Dayrabay.jpg',
-      name: 'Karshyga Dayrabay',
-      details: `<strong>Head of Social Media</strong>, Copywriter of the KatIQ Platform <br> Kazakhstan`
-    },
-    {
       img: 'assets/Khanaiym Sarkulova.jpg',
       name: 'Khanaiym Sarkulova',
       details: `Volunteer <strong>Physics Teacher</strong> <br>Kyrgyzstan`
     },
+    {
+      img: 'assets/Ekaterina Zhvirblya.jpg',
+      name: 'Ekaterina Zhvirblya',
+      details: `Volunteer <strong>Chemistry Teacher</strong> <br> Belarus`
+    }, 
     {
       img: 'assets/Damelya Zhanbyrshy.jpg',
       name: 'Damelya Zhanbyrshy',
@@ -101,6 +96,11 @@ export class StaffCarouselComponent {
       name: 'Yana Zhanshina',
       details: `Volunteer <strong>Biology Teacher</strong> <br> Kazakhstan`
     },
+    {
+      img: 'assets/Mariya Ivanova.jpg',
+      name: 'Mariya Ivanova',
+      details: `Volunteer <strong>Biology Teacher</strong> <br> Russia`
+    }, 
     {
       img: 'assets/Ekaterina Russkih.jpg',
       name: 'Ekaterina Russkih',
@@ -162,9 +162,9 @@ export class StaffCarouselComponent {
       details: `Volunteer <strong>English Teacher</strong> <br>Russia `
     },
     {
-      img: 'assets/Zafira Sydykova.jpeg',
-      name: 'Zafira Sydykova',
-      details: `Volunteer <strong>Mathematics Teacher</strong> <br> Kyrgyzstan`
+      img: 'assets/Aissel Kanatbay.jpg',
+      name: 'Aissel Kanatbay',
+      details: `Volunteer <strong>English Teacher</strong> <br>Kazakhstan`
     }
     // {
     //   img: 'assets/teacher4.jpg',
