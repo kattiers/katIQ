@@ -1,0 +1,7 @@
+<div class="header-container">
+  <button class="button back-button" (click)="mainPage()">BACK</button>
+  <div class="headline">{{lessonTitle}}</div>
+</div>
+<iframe *ngIf="isLinkAvailable" [src]="lessonLink" class="videoLesson" width="95%" height="30%"></iframe>
+<!-- <div class="description" [innerHTML]="lessonDescription"></div> -->
+<div class="description" [ngClass]="{'no-video-margin': !isLinkAvailable}" [innerHTML]="lessonDescription"></div>
